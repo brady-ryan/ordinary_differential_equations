@@ -1,1 +1,1 @@
-Some simple tests of solving Ordinary Differential Equations with Python. Utilizes Numpy, Matplotlib, and classes.
+Some simple tests of solving Ordinary Differential Equations with Fortan and Python
