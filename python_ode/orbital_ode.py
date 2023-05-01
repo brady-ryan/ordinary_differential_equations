@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 G = 6.67e-11
 Msun = 1.989e30
 tmax = 365*24*60*60
+AU = 1.496e11
 
 class Orbit_ODE:
 
@@ -93,12 +94,12 @@ class Orbit_ODE:
     def plot(self):
 
             rtimes, rhistory = self.rk2()
-            rxposition = [q[0] for q in rhistory]
-            ryposition = [q[1] for q in rhistory]
+            rxposition = [q[0]/AU for q in rhistory]
+            ryposition = [q[1]/AU for q in rhistory]
 
             etimes, ehistory = self.euler()
-            exposition = [q[0] for q in ehistory]
-            eyposition = [q[1] for q in ehistory]
+            exposition = [q[0]/AU for q in ehistory]
+            eyposition = [q[1]/AU for q in ehistory]
 
             fig, ax = plt.subplots(2)
 
