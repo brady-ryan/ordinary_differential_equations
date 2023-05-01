@@ -1,1 +1,1 @@
-Test!
+Some simple tests of solving Ordinary Differential Equations with Python. Utilizes Numpy, Matplotlib, and classes.
