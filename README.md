@@ -1,1 +1,1 @@
-Some simple tests of solving Ordinary Differential Equations with Fortan and Python
+Some simple tests of solving Ordinary Differential Equations with C++, Fortran, and Python.
